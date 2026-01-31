@@ -87,6 +87,7 @@ If you receive the email, Claude is now connected to 500+ apps.
   - [Collaboration & Project Management](#collaboration--project-management)
   - [Security & Systems](#security--systems)
 - [Getting Started](#getting-started)
+  - [Complete Installation Guide](INSTALLATION.md) - Beginner-friendly step-by-step instructions
 - [Creating Skills](#creating-skills)
 - [Contributing](#contributing)
 - [Resources](#resources)
@@ -196,11 +197,19 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 
 ## Getting Started
 
+**New to Claude Skills?** Check out our **[Complete Installation Guide](INSTALLATION.md)** with step-by-step instructions for beginners!
+
+### Quick Start
+
+Choose your platform and follow the installation method:
+
 ### Using Skills in Claude.ai
 
 1. Click the skill icon (🧩) in your chat interface.
 2. Add skills from the marketplace or upload custom skills.
 3. Claude automatically activates relevant skills based on your task.
+
+**[See detailed web installation guide →](INSTALLATION.md#method-1-claudeai-web-browser)**
 
 ### Using Skills in Claude Code
 
@@ -222,6 +231,8 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 
 4. The skill loads automatically and activates when relevant.
 
+**[See detailed CLI installation guide →](INSTALLATION.md#method-2-claude-code-command-line)**
+
 ### Using Skills via API
 
 Use the Claude Skills API to programmatically load and manage skills:
@@ -238,7 +249,7 @@ response = client.messages.create(
 )
 ```
 
-See the [Skills API documentation](https://docs.claude.com/en/api/skills-guide) for details.
+See the [Skills API documentation](https://docs.claude.com/en/api/skills-guide) for details or **[view the detailed API installation guide →](INSTALLATION.md#method-3-claude-api-programmatic)**
 
 ## Creating Skills
 
